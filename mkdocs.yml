@@ -1,0 +1,18 @@
+site_name: Radar Educacional - Passos Mágicos
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+nav:
+  - Início: index.md
+  - Análise de Dados (EDA): eda.md
+  - Modelagem Preditiva: modelagem.md
+
+markdown_extensions:
+  - attr_list # Necessário para ajustar tamanho de imagens se precisar

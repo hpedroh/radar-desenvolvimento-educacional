@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modelagem-preditiva" class="md-skip">
+        <a href="#brain-inteligencia-e-modelagem-preditiva" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -384,22 +384,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-modelo-transversal-risco-atual" class="md-nav__link">
+  <a href="#material-tournament-estrategia-de-modelagem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Modelo Transversal (Risco Atual)
+        :material-Tournament: Estratégia de Modelagem
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. Modelo Transversal (Risco Atual)">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-chart-check-performance-e-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :material-chart-check: Performance e Resultados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-order-numeric-ascending-o-que-define-o-risco-drivers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :material-order-numeric-ascending: O que define o Risco? (Drivers)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label=":material-order-numeric-ascending: O que define o Risco? (Drivers)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#principais-drivers" class="md-nav__link">
+  <a href="#importancia-das-variaveis-feature-importance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Principais Drivers
+        Importância das Variáveis (Feature Importance)
       
     </span>
   </a>
@@ -412,10 +434,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-modelo-longitudinal-risco-futuro" class="md-nav__link">
+  <a href="#material-shield-check-consideracoes-de-deploy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Modelo Longitudinal (Risco Futuro)
+        :material-shield-check: Considerações de Deploy
       
     </span>
   </a>
@@ -457,22 +479,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-modelo-transversal-risco-atual" class="md-nav__link">
+  <a href="#material-tournament-estrategia-de-modelagem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Modelo Transversal (Risco Atual)
+        :material-Tournament: Estratégia de Modelagem
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. Modelo Transversal (Risco Atual)">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-chart-check-performance-e-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :material-chart-check: Performance e Resultados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-order-numeric-ascending-o-que-define-o-risco-drivers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :material-order-numeric-ascending: O que define o Risco? (Drivers)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label=":material-order-numeric-ascending: O que define o Risco? (Drivers)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#principais-drivers" class="md-nav__link">
+  <a href="#importancia-das-variaveis-feature-importance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Principais Drivers
+        Importância das Variáveis (Feature Importance)
       
     </span>
   </a>
@@ -485,10 +529,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-modelo-longitudinal-risco-futuro" class="md-nav__link">
+  <a href="#material-shield-check-consideracoes-de-deploy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Modelo Longitudinal (Risco Futuro)
+        :material-shield-check: Considerações de Deploy
       
     </span>
   </a>
@@ -512,18 +556,78 @@
 
 
 
-<h1 id="modelagem-preditiva">Modelagem Preditiva</h1>
-<p>Utilizamos o algoritmo <strong>XGBoost Classifier</strong> para dois cenários distintos.</p>
-<h2 id="1-modelo-transversal-risco-atual">1. Modelo Transversal (Risco Atual)</h2>
-<p>Focado em identificar alunos que já estão em situação crítica no ano corrente.</p>
-<p><strong>Performance:</strong>
-<img alt="Curva ROC Transversal" src="../images/eda_roc_curve_transversal.png" /></p>
-<h3 id="principais-drivers">Principais Drivers</h3>
-<p>Os indicadores que mais influenciam o risco atual são:
-<img alt="Importância Transversal" src="../images/model_transversal_importance.png" /></p>
-<h2 id="2-modelo-longitudinal-risco-futuro">2. Modelo Longitudinal (Risco Futuro)</h2>
-<p>Modelo diferencial que utiliza dados do ano anterior para prever a situação do ano seguinte.
-<img alt="Importância Longitudinal" src="../images/model_longitudinal_importance.png" /></p>
+<h1 id="brain-inteligencia-e-modelagem-preditiva">:brain: Inteligência e Modelagem Preditiva</h1>
+<p>Nesta seção, detalhamos a construção dos modelos de Inteligência Artificial baseados no algoritmo <strong>XGBoost (Extreme Gradient Boosting)</strong>, treinados para atuar na prevenção da defasagem escolar.</p>
+<hr />
+<h2 id="material-tournament-estrategia-de-modelagem">:material-Tournament: Estratégia de Modelagem</h2>
+<p>Para uma cobertura completa do problema, não desenvolvemos apenas um modelo, mas uma <strong>estratégia dual</strong> que atende a diferentes necessidades da ONG:</p>
+<div class="grid cards" markdown>
+
+-   :material-magnify-expand: **Modelo Transversal**
+
+    **Foco:** Diagnóstico do "Hoje".
+    Identifica alunos que apresentam sinais de defasagem no ano letivo atual para intervenção imediata.
+
+-   :material-history: **Modelo Longitudinal**
+
+    **Foco:** Predição do "Amanhã".
+    Utiliza o comportamento histórico (ano $t$) para prever o risco de defasagem no próximo ano ($t+1$).
+
+</div>
+
+<hr />
+<h2 id="material-chart-check-performance-e-resultados">:material-chart-check: Performance e Resultados</h2>
+<p>Utilizamos o <strong>XGBoost</strong> pela sua alta performance em dados tabulares e capacidade de lidar com dados faltantes (comum em cadastros de ONGs).</p>
+<p>=== ":material-vector-point: Modelo Transversal (Risco Atual)"</p>
+<pre><code>!!! info "Objetivo: Identificação Imediata"
+    O modelo foi calibrado para maximizar o **Recall**, garantindo que a ONG não deixe nenhum aluno em risco passar despercebido.
+
+![Curva ROC Transversal](images/roc_transversal.png){: align=center width="500" }
+
+**Métricas de Validação (Base 2024):**
+
+| Métrica | Resultado | Status |
+| :--- | :---: | :--- |
+| **ROC AUC** | **0.77** | :material-check-circle: Bom |
+| **Precisão (Classe 1)** | 64% | :material-information: Moderado |
+| **Recall (Classe 1)** | **85%** | :material-star: Excelente |
+</code></pre>
+<p>=== ":material-fast-forward: Modelo Longitudinal (Risco Futuro)"</p>
+<pre><code>!!! success "Diferencial Técnico"
+    Este modelo alcançou uma performance superior ao transversal, demonstrando que o histórico acadêmico é um preditor poderosíssimo para o futuro.
+
+![Curva ROC Longitudinal](images/model_longitudinal_roc.png){: align=center width="500" }
+
+**Métricas de Validação (Pares t -&gt; t+1):**
+
+| Métrica | Resultado | Status |
+| :--- | :---: | :--- |
+| **ROC AUC** | **0.83** | :material-star: Excelente |
+| **Acurácia Geral** | 74% | :material-check-circle: Sólido |
+</code></pre>
+<hr />
+<h2 id="material-order-numeric-ascending-o-que-define-o-risco-drivers">:material-order-numeric-ascending: O que define o Risco? (Drivers)</h2>
+<p>Entender o "porquê" da decisão do modelo é fundamental para a confiança pedagógica. Abaixo, os indicadores que mais pesam na decisão matemática da IA:</p>
+<h3 id="importancia-das-variaveis-feature-importance">Importância das Variáveis (Feature Importance)</h3>
+<div class="grid" markdown>
+
+![Importância Transversal](images/feature_importance.png)
+*Drivers do Modelo Transversal: Foco em índices acadêmicos e idade.*
+
+![Importância Longitudinal](images/model_longitudinal_importance.png)
+*Drivers do Modelo Longitudinal: Foco em tendências e tempo de casa.*
+
+</div>
+
+<p>!!! tip "Interpretação para a ONG"
+    Note que o <strong>IPS (Índice Psicossocial)</strong> e o <strong>IEG (Engajamento)</strong> aparecem consistentemente no topo. Isso confirma a tese de que o bem-estar emocional e a presença ativa são os maiores protetores contra a defasagem.</p>
+<hr />
+<h2 id="material-shield-check-consideracoes-de-deploy">:material-shield-check: Considerações de Deploy</h2>
+<p>Os modelos foram exportados utilizando a biblioteca <code>joblib</code> e estão integrados à aplicação <strong>Streamlit</strong>, permitindo:
+1.  <strong>Inferência em tempo real</strong> para novos alunos.
+2.  <strong>Análise de "What-if"</strong> (O que acontece com o risco se aumentarmos o engajamento deste aluno?).</p>
+<hr />
+<p>:arrow_right: <strong>Próximo Passo:</strong> <a href="guia.md">Veja como operar estas predições no Guia do Usuário</a></p>
 
 
 

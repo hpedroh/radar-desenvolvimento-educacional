@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#projeto-radar-educacional" class="md-skip">
+        <a href="#bem-vindo-ao-radar-educacional" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -330,10 +330,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
+  <a href="#rocket-diferenciais-da-solucao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivo
+        :rocket: Diferenciais da Solução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compass-como-navegar-nesta-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :compass: Como navegar nesta documentação?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hammer_and_wrench-estrutura-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :hammer_and_wrench: Estrutura Tecnológica
       
     </span>
   </a>
@@ -429,10 +451,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivo" class="md-nav__link">
+  <a href="#rocket-diferenciais-da-solucao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivo
+        :rocket: Diferenciais da Solução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compass-como-navegar-nesta-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :compass: Como navegar nesta documentação?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hammer_and_wrench-estrutura-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        :hammer_and_wrench: Estrutura Tecnológica
       
     </span>
   </a>
@@ -456,10 +500,66 @@
 
 
 
-<h1 id="projeto-radar-educacional">Projeto Radar Educacional</h1>
-<p>Bem-vindo à documentação do Datathon Fase 5. Este projeto visa identificar o risco de defasagem escolar dos alunos da ONG Passos Mágicos.</p>
-<h3 id="objetivo">Objetivo</h3>
-<p>Construir uma solução de inteligência de dados que permita à ONG agir preventivamente antes que o aluno perca o vínculo com o nível educacional adequado à sua idade.</p>
+<h1 id="bem-vindo-ao-radar-educacional">Bem-vindo ao Radar Educacional</h1>
+<p>!!! info "O que é este projeto?"
+    O <strong>Radar Educacional</strong> é uma plataforma de inteligência analítica desenvolvida para a <strong>Associação Passos Mágicos</strong>. O sistema transforma indicadores educacionais e psicossociais em modelos preditivos para identificar alunos em risco de defasagem, permitindo intervenções precoces e personalizadas.</p>
+<p><img align="center" alt="Dashboard Preview" src="images/eda_faixa_defasagem_ano.png" /></p>
+<hr />
+<h2 id="rocket-diferenciais-da-solucao">:rocket: Diferenciais da Solução</h2>
+<p>Diferente de relatórios estáticos, o Radar Educacional entrega <strong>contexto e predição</strong>.</p>
+<div class="grid cards" markdown>
+
+-   :material-target: **Diagnóstico de Precisão**
+
+    Identificação imediata de alunos com defasagem severa através do Modelo Transversal, priorizando o atendimento da ONG.
+
+-   :material-crystal-ball: **Previsão de Ciclo (Longitudinal)**
+
+    Algoritmo diferencial que utiliza dados históricos para antecipar o risco de defasagem para o próximo ano letivo.
+
+-   :material-chart-multiline: **Visão Multidimensional**
+
+    Integração de índices acadêmicos (IDA), engajamento (IEG) e fatores psicossociais (IPS) para uma visão 360º do aluno.
+
+</div>
+
+<hr />
+<h2 id="compass-como-navegar-nesta-documentacao">:compass: Como navegar nesta documentação?</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Se desejas...</th>
+<th style="text-align: left;">Vai para...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Explorar Insights</strong></td>
+<td style="text-align: left;"><a href="eda/">Análise de Dados (EDA)</a> para entender os drivers de desempenho.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Entender a IA</strong></td>
+<td style="text-align: left;"><a href="modelagem/">Modelagem e Métricas</a> para detalhes sobre o XGBoost e performance.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Utilizar a App</strong></td>
+<td style="text-align: left;"><a href="guia.md">Guia do Utilizador</a> para aprender a navegar no Dashboard Streamlit.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="hammer_and_wrench-estrutura-tecnologica">:hammer_and_wrench: Estrutura Tecnológica</h2>
+<p>A solução foi construída com foco em escalabilidade e reprodutibilidade:</p>
+<ul>
+<li><strong>Linguagem:</strong> Python 3.10+</li>
+<li><strong>IA/ML:</strong> XGBoost Classifier (Modelos Transversal e Longitudinal)</li>
+<li><strong>Interface:</strong> Streamlit Community Cloud</li>
+<li><strong>Engenharia:</strong> Pipeline de tratamento de dados histórico (2022-2024)</li>
+<li><strong>Documentação:</strong> MkDocs Material (Engine fev/2026)</li>
+</ul>
+<hr />
+<p>!!! success "Impacto Real"
+    Este projeto foi desenhado para apoiar a meta da Passos Mágicos de universalizar a educação de qualidade em Embu-Guaçu, reduzindo a evasão através da ciência de dados.</p>
 
 
 

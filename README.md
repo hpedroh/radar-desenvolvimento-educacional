@@ -22,6 +22,17 @@ psicossociais em inteligência analítica para:
 
 ------------------------------------------------------------------------
 
+## 📖 Documentação Detalhada
+Acesse a documentação técnica completa do projeto, incluindo detalhes da modelagem e análises profundas:
+👉 **[Link da sua Documentação no GitHub Pages]**
+
+------------------------------------------------------------------------
+
+## 🔗 Acessos Rápidos
+- 🚀 **Aplicação Streamlit:** [Link do seu App]
+
+------------------------------------------------------------------------
+
 ## 🏫 Contexto
 
 A base de dados contempla os anos 2022, 2023 e 2024 e utiliza os
@@ -87,12 +98,14 @@ Deploy realizado via Streamlit Community Cloud.
 # 📁 Estrutura do Projeto
 
     radar-desenvolvimento-educacional/
-    ├── app/
-    ├── data/
-    ├── models/
-    ├── notebooks/
-    ├── utils/
-    ├── requirements.txt
+    ├── app/                # Aplicação Streamlit
+    ├── data/               # Bases de dados (Raw e Consolidada)
+    ├── docs/               # Documentação MkDocs (Markdown e Imagens)
+    ├── models/             # Modelos XGBoost (.pkl)
+    ├── notebooks/          # Notebooks de análise e treinamento
+    ├── src/                # Scripts auxiliares (load_data, charts)
+    ├── mkdocs.yml          # Configuração da documentação
+    ├── requirements.txt    # Dependências do projeto
     └── README.md
 
 ------------------------------------------------------------------------

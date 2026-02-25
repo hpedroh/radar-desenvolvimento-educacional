@@ -6,6 +6,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Inteligência Analítica e Predição de Risco de Defasagem Escolar">
+      
+      
+        <meta name="author" content="Pedro Alves">
       
       
       
@@ -23,7 +27,7 @@
     
     
       
-        <title>Modelagem Preditiva - Radar Educacional - Passos Mágicos</title>
+        <title>Modelagem e Inteligência - Radar Educacional - Passos Mágicos</title>
       
     
     
@@ -60,10 +64,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -72,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#brain-inteligencia-e-modelagem-preditiva" class="md-skip">
+        <a href="#inteligencia-e-modelagem-preditiva" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -89,7 +95,7 @@
     <a href=".." title="Radar Educacional - Passos Mágicos" class="md-header__button md-logo" aria-label="Radar Educacional - Passos Mágicos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -106,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modelagem Preditiva
+              Modelagem e Inteligência
             
           </span>
         </div>
@@ -114,7 +120,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mudar para tema claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mudar para tema escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para tema escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -158,6 +190,18 @@
 </div>
       
     
+    
+      <div class="md-header__source">
+        <a href="https://github.com/hpedroh/obesity" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
     
   </nav>
   
@@ -225,7 +269,7 @@
   
     
   
-  Modelagem Preditiva
+  Modelagem e Inteligência
 
       </a>
     </li>
@@ -276,11 +320,23 @@
     <a href=".." title="Radar Educacional - Passos Mágicos" class="md-nav__button md-logo" aria-label="Radar Educacional - Passos Mágicos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2"/></svg>
 
     </a>
     Radar Educacional - Passos Mágicos
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/hpedroh/obesity" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -361,7 +417,7 @@
   <span class="md-ellipsis">
     
   
-    Modelagem Preditiva
+    Modelagem e Inteligência
   
 
     
@@ -379,7 +435,7 @@
   <span class="md-ellipsis">
     
   
-    Modelagem Preditiva
+    Modelagem e Inteligência
   
 
     
@@ -405,10 +461,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#material-tournament-estrategia-de-modelagem" class="md-nav__link">
+  <a href="#estrategia-de-modelagem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-Tournament: Estratégia de Modelagem
+        Estratégia de Modelagem
       
     </span>
   </a>
@@ -416,10 +472,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-chart-check-performance-e-resultados" class="md-nav__link">
+  <a href="#performance-e-resultados" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-chart-check: Performance e Resultados
+        Performance e Resultados
       
     </span>
   </a>
@@ -427,15 +483,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-order-numeric-ascending-o-que-define-o-risco-drivers" class="md-nav__link">
+  <a href="#o-que-define-o-risco-drivers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-order-numeric-ascending: O que define o Risco? (Drivers)
+        O que define o Risco? (Drivers)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label=":material-order-numeric-ascending: O que define o Risco? (Drivers)">
+    <nav class="md-nav" aria-label="O que define o Risco? (Drivers)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -455,10 +511,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-shield-check-consideracoes-de-deploy" class="md-nav__link">
+  <a href="#consideracoes-de-deploy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-shield-check: Considerações de Deploy
+        Considerações de Deploy
       
     </span>
   </a>
@@ -527,10 +583,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#material-tournament-estrategia-de-modelagem" class="md-nav__link">
+  <a href="#estrategia-de-modelagem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-Tournament: Estratégia de Modelagem
+        Estratégia de Modelagem
       
     </span>
   </a>
@@ -538,10 +594,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-chart-check-performance-e-resultados" class="md-nav__link">
+  <a href="#performance-e-resultados" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-chart-check: Performance e Resultados
+        Performance e Resultados
       
     </span>
   </a>
@@ -549,15 +605,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-order-numeric-ascending-o-que-define-o-risco-drivers" class="md-nav__link">
+  <a href="#o-que-define-o-risco-drivers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-order-numeric-ascending: O que define o Risco? (Drivers)
+        O que define o Risco? (Drivers)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label=":material-order-numeric-ascending: O que define o Risco? (Drivers)">
+    <nav class="md-nav" aria-label="O que define o Risco? (Drivers)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -577,10 +633,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#material-shield-check-consideracoes-de-deploy" class="md-nav__link">
+  <a href="#consideracoes-de-deploy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :material-shield-check: Considerações de Deploy
+        Considerações de Deploy
       
     </span>
   </a>
@@ -603,79 +659,120 @@
                   
 
 
+  
+  
 
-<h1 id="brain-inteligencia-e-modelagem-preditiva">:brain: Inteligência e Modelagem Preditiva</h1>
+
+<h1 id="inteligencia-e-modelagem-preditiva"><img alt="🧠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e0.svg" title=":brain:" /> Inteligência e Modelagem Preditiva</h1>
 <p>Nesta seção, detalhamos a construção dos modelos de Inteligência Artificial baseados no algoritmo <strong>XGBoost (Extreme Gradient Boosting)</strong>, treinados para atuar na prevenção da defasagem escolar.</p>
 <hr />
-<h2 id="material-tournament-estrategia-de-modelagem">:material-Tournament: Estratégia de Modelagem</h2>
+<h2 id="estrategia-de-modelagem"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2v6h2v3H5c-1.11 0-2 .89-2 2v3H1v6h6v-6H5v-3h6v3H9v6h6v-6h-2v-3h6v3h-2v6h6v-6h-2v-3c0-1.11-.89-2-2-2h-6V8h2V2z"/></svg></span> Estratégia de Modelagem</h2>
 <p>Para uma cobertura completa do problema, não desenvolvemos apenas um modelo, mas uma <strong>estratégia dual</strong> que atende a diferentes necessidades da ONG:</p>
-<div class="grid cards" markdown>
-
--   :material-magnify-expand: **Modelo Transversal**
-
-    **Foco:** Diagnóstico do "Hoje".
-    Identifica alunos que apresentam sinais de defasagem no ano letivo atual para intervenção imediata.
-
--   :material-history: **Modelo Longitudinal**
-
-    **Foco:** Predição do "Amanhã".
-    Utiliza o comportamento histórico (ano $t$) para prever o risco de defasagem no próximo ano ($t+1$).
-
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16h-.58l-.81-.81A7.07 7.07 0 0 0 18 11c0-3.87-3.13-7-7-7-1.5 0-3 .5-4.21 1.4-3.09 2.32-3.72 6.71-1.4 9.8s6.71 3.72 9.8 1.4l.81.81V18l5 5 2-2zm-7 0c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5M3 6 1 8V1h7L6 3H3zm18-5v7l-2-2V3h-3l-2-2zM6 19l2 2H1v-7l2 2v3z"/></svg></span> <strong>Modelo Transversal</strong></p>
+<p><strong>Foco:</strong> Diagnóstico do "Hoje".
+Identifica alunos que apresentam sinais de defasagem no ano letivo atual para intervenção imediata.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5 8H12v5l4.28 2.54.72-1.21-3.5-2.08zM13 3a9 9 0 0 0-9 9H1l3.96 4.03L9 12H6a7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.9 8.9 0 0 0 13 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9"/></svg></span> <strong>Modelo Longitudinal</strong></p>
+<p><strong>Foco:</strong> Predição do "Amanhã".
+Utiliza o comportamento histórico (ano <span class="arithmatex">\(t\)</span>) para prever o risco de defasagem no próximo ano (<span class="arithmatex">\(t+1\)</span>).</p>
+</li>
+</ul>
 </div>
-
 <hr />
-<h2 id="material-chart-check-performance-e-resultados">:material-chart-check: Performance e Resultados</h2>
+<h2 id="performance-e-resultados"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23.5 17-5 5-3.5-3.5 1.5-1.5 2 2 3.5-3.5zM6 2c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h7.81c-.53-.91-.81-1.95-.81-3 0-3.31 2.69-6 6-6 .34 0 .67.03 1 .08V8l-6-6m-1 1.5L18.5 9H13Z"/></svg></span> Performance e Resultados</h2>
 <p>Utilizamos o <strong>XGBoost</strong> pela sua alta performance em dados tabulares e capacidade de lidar com dados faltantes (comum em cadastros de ONGs).</p>
-<p>=== ":material-vector-point: Modelo Transversal (Risco Atual)"</p>
-<pre><code>!!! info "Objetivo: Identificação Imediata"
-    O modelo foi calibrado para maximizar o **Recall**, garantindo que a ONG não deixe nenhum aluno em risco passar despercebido.
-
-![Curva ROC Transversal](images/roc_transversal.png){: align=center width="500" }
-
-**Métricas de Validação (Base 2024):**
-
-| Métrica | Resultado | Status |
-| :--- | :---: | :--- |
-| **ROC AUC** | **0.77** | :material-check-circle: Bom |
-| **Precisão (Classe 1)** | 64% | :material-information: Moderado |
-| **Recall (Classe 1)** | **85%** | :material-star: Excelente |
-</code></pre>
-<p>=== ":material-fast-forward: Modelo Longitudinal (Risco Futuro)"</p>
-<pre><code>!!! success "Diferencial Técnico"
-    Este modelo alcançou uma performance superior ao transversal, demonstrando que o histórico acadêmico é um preditor poderosíssimo para o futuro.
-
-![Curva ROC Longitudinal](images/model_longitudinal_roc.png){: align=center width="500" }
-
-**Métricas de Validação (Pares t -&gt; t+1):**
-
-| Métrica | Resultado | Status |
-| :--- | :---: | :--- |
-| **ROC AUC** | **0.83** | :material-star: Excelente |
-| **Acurácia Geral** | 74% | :material-check-circle: Sólido |
-</code></pre>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 9v6h6V9zm2 2h2v2h-2z"/></svg></span> Modelo Transversal (Risco Atual)</label><label for="__tabbed_1_2"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 6v12l8.5-6M4 18l8.5-6L4 6z"/></svg></span> Modelo Longitudinal (Risco Futuro)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<p class="admonition-title">Objetivo: Identificação Imediata</p>
+<p>O modelo foi calibrado para maximizar o <strong>Recall</strong>, garantindo que a ONG não deixe nenhum aluno em risco passar despercebido.</p>
+</div>
+<p><img align="center" alt="Curva ROC Transversal" src="../images/eda_roc_curve_transversal.png" width="500" /></p>
+<p><strong>Métricas de Validação (Base 2024):</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: center;">Resultado</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>ROC AUC</strong></td>
+<td style="text-align: center;"><strong>0.77</strong></td>
+<td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg></span> Bom</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Precisão (Classe 1)</strong></td>
+<td style="text-align: center;">64%</td>
+<td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span> Moderado</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Recall (Classe 1)</strong></td>
+<td style="text-align: center;"><strong>85%</strong></td>
+<td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> Excelente</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<div class="admonition success">
+<p class="admonition-title">Diferencial Técnico</p>
+<p>Este modelo alcançou uma performance superior ao transversal, demonstrando que o histórico acadêmico é um preditor poderosíssimo para o futuro.</p>
+</div>
+<p><img align="center" alt="Curva ROC Longitudinal" src="../images/model_longitudinal_roc.png" width="500" /></p>
+<p><strong>Métricas de Validação (Pares t -&gt; t+1):</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: center;">Resultado</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>ROC AUC</strong></td>
+<td style="text-align: center;"><strong>0.83</strong></td>
+<td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> Excelente</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Acurácia Geral</strong></td>
+<td style="text-align: center;">74%</td>
+<td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg></span> Sólido</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <hr />
-<h2 id="material-order-numeric-ascending-o-que-define-o-risco-drivers">:material-order-numeric-ascending: O que define o Risco? (Drivers)</h2>
+<h2 id="o-que-define-o-risco-drivers"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 21H3v-2h4v-1H5a2 2 0 0 1-2-2v-1c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v4c0 1.11-.89 2-2 2m0-6H5v1h2M5 3h2a2 2 0 0 1 2 2v4c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m0 6h2V5H5m7 0h10v2H12m0 12v-2h10v2m-10-8h10v2H12Z"/></svg></span> O que define o Risco? (Drivers)</h2>
 <p>Entender o "porquê" da decisão do modelo é fundamental para a confiança pedagógica. Abaixo, os indicadores que mais pesam na decisão matemática da IA:</p>
 <h3 id="importancia-das-variaveis-feature-importance">Importância das Variáveis (Feature Importance)</h3>
-<div class="grid" markdown>
-
-![Importância Transversal](images/feature_importance.png)
-*Drivers do Modelo Transversal: Foco em índices acadêmicos e idade.*
-
-![Importância Longitudinal](images/model_longitudinal_importance.png)
-*Drivers do Modelo Longitudinal: Foco em tendências e tempo de casa.*
-
+<div class="grid">
+<p><img alt="Importância Transversal" src="../images/model_transversal_importance.png" />
+<em>Drivers do Modelo Transversal: Foco em índices acadêmicos e idade.</em></p>
+<p><img alt="Importância Longitudinal" src="../images/model_longitudinal_importance.png" />
+<em>Drivers do Modelo Longitudinal: Foco em tendências e tempo de casa.</em></p>
 </div>
-
-<p>!!! tip "Interpretação para a ONG"
-    Note que o <strong>IPS (Índice Psicossocial)</strong> e o <strong>IEG (Engajamento)</strong> aparecem consistentemente no topo. Isso confirma a tese de que o bem-estar emocional e a presença ativa são os maiores protetores contra a defasagem.</p>
+<div class="admonition tip">
+<p class="admonition-title">Interpretação para a ONG</p>
+<p>Note que o <strong>IPS (Índice Psicossocial)</strong> e o <strong>IEG (Engajamento)</strong> aparecem consistentemente no topo. Isso confirma a tese de que o bem-estar emocional e a presença ativa são os maiores protetores contra a defasagem.</p>
+</div>
 <hr />
-<h2 id="material-shield-check-consideracoes-de-deploy">:material-shield-check: Considerações de Deploy</h2>
+<h2 id="consideracoes-de-deploy"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg></span> Considerações de Deploy</h2>
 <p>Os modelos foram exportados utilizando a biblioteca <code>joblib</code> e estão integrados à aplicação <strong>Streamlit</strong>, permitindo:
 1.  <strong>Inferência em tempo real</strong> para novos alunos.
 2.  <strong>Análise de "What-if"</strong> (O que acontece com o risco se aumentarmos o engajamento deste aluno?).</p>
 <hr />
-<p>:arrow_right: <strong>Próximo Passo:</strong> <a href="../guia/">Veja como operar estas predições no Guia do Usuário</a></p>
+<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/27a1.svg" title=":arrow_right:" /> <strong>Próximo Passo:</strong> <a href="../guia/">Veja como operar estas predições no Guia do Usuário</a></p>
 
 
 
@@ -693,8 +790,16 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
         
       </main>
       
@@ -725,10 +830,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

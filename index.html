@@ -6,6 +6,10 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Inteligência Analítica e Predição de Risco de Defasagem Escolar">
+      
+      
+        <meta name="author" content="Pedro Alves">
       
       
       
@@ -58,10 +62,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -87,7 +93,7 @@
     <a href="." title="Radar Educacional - Passos Mágicos" class="md-header__button md-logo" aria-label="Radar Educacional - Passos Mágicos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -112,7 +118,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mudar para tema claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mudar para tema escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para tema escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -156,6 +188,18 @@
 </div>
       
     
+    
+      <div class="md-header__source">
+        <a href="https://github.com/hpedroh/obesity" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
     
   </nav>
   
@@ -223,7 +267,7 @@
   
     
   
-  Modelagem Preditiva
+  Modelagem e Inteligência
 
       </a>
     </li>
@@ -274,11 +318,23 @@
     <a href="." title="Radar Educacional - Passos Mágicos" class="md-nav__button md-logo" aria-label="Radar Educacional - Passos Mágicos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2"/></svg>
 
     </a>
     Radar Educacional - Passos Mágicos
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/hpedroh/obesity" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -349,10 +405,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rocket-diferenciais-da-solucao" class="md-nav__link">
+  <a href="#diferenciais-da-solucao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :rocket: Diferenciais da Solução
+        Diferenciais da Solução
       
     </span>
   </a>
@@ -360,10 +416,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#compass-como-navegar-nesta-documentacao" class="md-nav__link">
+  <a href="#como-navegar-nesta-documentacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :compass: Como navegar nesta documentação?
+        Como navegar nesta documentação?
       
     </span>
   </a>
@@ -371,10 +427,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hammer_and_wrench-estrutura-tecnologica" class="md-nav__link">
+  <a href="#estrutura-tecnologica" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :hammer_and_wrench: Estrutura Tecnológica
+        Estrutura Tecnológica
       
     </span>
   </a>
@@ -430,7 +486,7 @@
   <span class="md-ellipsis">
     
   
-    Modelagem Preditiva
+    Modelagem e Inteligência
   
 
     
@@ -497,10 +553,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rocket-diferenciais-da-solucao" class="md-nav__link">
+  <a href="#diferenciais-da-solucao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :rocket: Diferenciais da Solução
+        Diferenciais da Solução
       
     </span>
   </a>
@@ -508,10 +564,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#compass-como-navegar-nesta-documentacao" class="md-nav__link">
+  <a href="#como-navegar-nesta-documentacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :compass: Como navegar nesta documentação?
+        Como navegar nesta documentação?
       
     </span>
   </a>
@@ -519,10 +575,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hammer_and_wrench-estrutura-tecnologica" class="md-nav__link">
+  <a href="#estrutura-tecnologica" class="md-nav__link">
     <span class="md-ellipsis">
       
-        :hammer_and_wrench: Estrutura Tecnológica
+        Estrutura Tecnológica
       
     </span>
   </a>
@@ -545,32 +601,37 @@
                   
 
 
+  
+  
+
 
 <h1 id="bem-vindo-ao-radar-educacional">Bem-vindo ao Radar Educacional</h1>
-<p>!!! info "O que é este projeto?"
-    O <strong>Radar Educacional</strong> é uma plataforma de inteligência analítica desenvolvida para a <strong>Associação Passos Mágicos</strong>. O sistema transforma indicadores educacionais e psicossociais em modelos preditivos para identificar alunos em risco de defasagem, permitindo intervenções precoces e personalizadas.</p>
+<div class="admonition info">
+<p class="admonition-title">O que é este projeto?</p>
+<p>O <strong>Radar Educacional</strong> é uma plataforma de inteligência analítica desenvolvida para a <strong>Associação Passos Mágicos</strong>. O sistema transforma indicadores educacionais e psicossociais em modelos preditivos para identificar alunos em risco de defasagem, permitindo intervenções precoces e personalizadas.</p>
+</div>
 <p><img align="center" alt="Dashboard Preview" src="images/eda_faixa_defasagem_ano.png" /></p>
 <hr />
-<h2 id="rocket-diferenciais-da-solucao">:rocket: Diferenciais da Solução</h2>
+<h2 id="diferenciais-da-solucao"><img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f680.svg" title=":rocket:" /> Diferenciais da Solução</h2>
 <p>Diferente de relatórios estáticos, o Radar Educacional entrega <strong>contexto e predição</strong>.</p>
-<div class="grid cards" markdown>
-
--   :material-target: **Diagnóstico de Precisão**
-
-    Identificação imediata de alunos com defasagem severa através do Modelo Transversal, priorizando o atendimento da ONG.
-
--   :material-crystal-ball: **Previsão de Ciclo (Longitudinal)**
-
-    Algoritmo diferencial que utiliza dados históricos para antecipar o risco de defasagem para o próximo ano letivo.
-
--   :material-chart-multiline: **Visão Multidimensional**
-
-    Integração de índices acadêmicos (IDA), engajamento (IEG) e fatores psicossociais (IPS) para uma visão 360º do aluno.
-
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 2v2.07A8 8 0 0 0 4.07 11H2v2h2.07A8 8 0 0 0 11 19.93V22h2v-2.07A8 8 0 0 0 19.93 13H22v-2h-2.07A8 8 0 0 0 13 4.07V2m-2 4.08V8h2V6.09c2.5.41 4.5 2.41 4.92 4.91H16v2h1.91c-.41 2.5-2.41 4.5-4.91 4.92V16h-2v1.91C8.5 17.5 6.5 15.5 6.08 13H8v-2H6.09C6.5 8.5 8.5 6.5 11 6.08M12 11a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1"/></svg></span> <strong>Diagnóstico de Precisão</strong></p>
+<p>Identificação imediata de alunos com defasagem severa através do Modelo Transversal, priorizando o atendimento da ONG.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9.38 8.38 2.12.96 2.12-.96-.96 2.12.96 2.12-2.12-.96-2.12.96.96-2.12zM16.5 2.5l1.09 2.91L20.5 6.5l-2.91 1.09-1.09 2.91-1.09-2.91L12.5 6.5l2.91-1.09zM6 19h1v-1a1 1 0 0 1 1-1h.26a7.47 7.47 0 0 1-3.76-6.5A7.5 7.5 0 0 1 12 3c1.05 0 2.05.22 2.96.61l-.37.98-1.42.53Q12.6 5 12 5a5.5 5.5 0 0 0-5.5 5.5A5.5 5.5 0 0 0 12 16c2.91 0 5.3-2.27 5.5-5.13l.91-2.46.71-.27c.25.74.38 1.54.38 2.36 0 2.78-1.5 5.2-3.76 6.5H16a1 1 0 0 1 1 1v1h1a2 2 0 0 1 2 2v1H4v-1a2 2 0 0 1 2-2"/></svg></span> <strong>Previsão de Ciclo (Longitudinal)</strong></p>
+<p>Algoritmo diferencial que utiliza dados históricos para antecipar o risco de defasagem para o próximo ano letivo.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 6.92 20.59 5.5l-2.85 3.22C15.68 6.4 12.83 5 9.61 5 6.72 5 4.07 6.16 2 8l1.42 1.42C5.12 7.93 7.27 7 9.61 7c2.74 0 5.09 1.26 6.77 3.24L13.5 13.5l-4-4L2 17l1.5 1.5 6-6 4 4 4.05-4.57c.75 1.35 1.25 2.9 1.45 4.57h2c-.22-2.32-.95-4.41-2.04-6.16z"/></svg></span> <strong>Visão Multidimensional</strong></p>
+<p>Integração de índices acadêmicos (IDA), engajamento (IEG) e fatores psicossociais (IPS) para uma visão 360º do aluno.</p>
+</li>
+</ul>
 </div>
-
 <hr />
-<h2 id="compass-como-navegar-nesta-documentacao">:compass: Como navegar nesta documentação?</h2>
+<h2 id="como-navegar-nesta-documentacao"><img alt="🧭" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9ed.svg" title=":compass:" /> Como navegar nesta documentação?</h2>
 <table>
 <thead>
 <tr>
@@ -594,7 +655,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="hammer_and_wrench-estrutura-tecnologica">:hammer_and_wrench: Estrutura Tecnológica</h2>
+<h2 id="estrutura-tecnologica"><img alt="🛠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f6e0.svg" title=":hammer_and_wrench:" /> Estrutura Tecnológica</h2>
 <p>A solução foi construída com foco em escalabilidade e reprodutibilidade:</p>
 <ul>
 <li><strong>Linguagem:</strong> Python 3.10+</li>
@@ -604,8 +665,10 @@
 <li><strong>Documentação:</strong> MkDocs Material (Engine fev/2026)</li>
 </ul>
 <hr />
-<p>!!! success "Impacto Real"
-    Este projeto foi desenhado para apoiar a meta da Passos Mágicos de universalizar a educação de qualidade em Embu-Guaçu, reduzindo a evasão através da ciência de dados.</p>
+<div class="admonition success">
+<p class="admonition-title">Impacto Real</p>
+<p>Este projeto foi desenhado para apoiar a meta da Passos Mágicos de universalizar a educação de qualidade em Embu-Guaçu, reduzindo a evasão através da ciência de dados.</p>
+</div>
 
 
 
@@ -623,8 +686,16 @@
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
         
       </main>
       
@@ -655,10 +726,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

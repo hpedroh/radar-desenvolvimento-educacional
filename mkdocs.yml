@@ -1,18 +1,64 @@
 site_name: Radar Educacional - Passos Mágicos
+site_description: Inteligência Analítica e Predição de Risco de Defasagem Escolar
+site_author: Pedro Alves
+repo_url: https://github.com/hpedroh/obesity
+
 theme:
   name: material
   language: pt-BR
-  palette:
-    primary: indigo
-    accent: blue
+  icon:
+    logo: material/chart-box-outline
+  palette: 
+    # Configuração do Tema Dark (Slate)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para tema claro
+    # Configuração do Tema Light (Opcional, para alternar)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para tema escuro
+
   features:
-    - navigation.tabs
-    - content.code.copy
+    - navigation.tabs          # Menu superior em abas
+    - navigation.sections      # Seções agrupadas
+    - navigation.expand        # Expandir menu lateral
+    - navigation.top           # Botão para voltar ao topo
+    - content.code.copy        # Botão de copiar código
+    - content.tabs.link        # Linkar abas entre páginas
+
+# Extensões cruciais para funcionar o "!!! info", Grids e Ícones
+markdown_extensions:
+  - admonition                # Habilita os blocos !!! info, !!! success, etc.
+  - pymdownx.details          # Habilita blocos colapsáveis
+  - pymdownx.superfences:      # Habilita diagramas e códigos complexos
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:          # Habilita as abas (===)
+      alternate_style: true
+  - pymdownx.emoji:           # Habilita ícones :material-xxx:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:     # Habilita fórmulas matemáticas
+      generic: true
+  - attr_list                 # Habilita o ajuste de tamanho de imagens e alinhamento
+  - md_in_html                # Habilita o uso de <div class="grid"> (Grids do projeto Obesity)
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - Início: index.md
   - Análise de Dados (EDA): eda.md
-  - Modelagem Preditiva: modelagem.md
-
-markdown_extensions:
-  - attr_list # Necessário para ajustar tamanho de imagens se precisar
+  - Modelagem e Inteligência: modelagem.md
+  - Guia do Usuário: guia.md

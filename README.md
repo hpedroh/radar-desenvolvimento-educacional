@@ -25,7 +25,7 @@ psicossociais em inteligência analítica para:
 ## 📖 Documentação Detalhada
 Acesse a documentação técnica completa do projeto, incluindo detalhes da modelagem e análises profundas:
 
-👉 **[https://hpedroh.github.io/radar-desenvolvimento-educacional]**
+👉 **[Clique aqui para acessar a Documentação Oficial](https://hpedroh.github.io/radar-desenvolvimento-educacional)**
 
 ------------------------------------------------------------------------
 

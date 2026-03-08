@@ -30,7 +30,7 @@ Acesse a documentação técnica completa do projeto, incluindo detalhes da mode
 ------------------------------------------------------------------------
 
 ## 🔗 Acessos Rápidos
-- 🚀 **Aplicação Streamlit:**
+- 🚀 **Aplicação Streamlit: [Clique aqui para acessar a aplicação](https://radar-desenvolvimento-educacional.streamlit.app/)**
 
 ------------------------------------------------------------------------
 

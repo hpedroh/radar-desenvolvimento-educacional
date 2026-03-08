@@ -36,6 +36,13 @@ with st.sidebar:
         use_container_width=True
     )
 
+    st.markdown("### 📁 Documentação")
+    st.link_button(
+        "🔗 Ver Documentação",
+        "https://hpedroh.github.io/radar-desenvolvimento-educacional",
+        use_container_width=True
+    )
+
 # =========================
 # Header Principal
 # =========================
